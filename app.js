@@ -29,7 +29,7 @@ app.locals.moment = require('moment');
 
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
-    secret: "Rockets son mejores que Spurs, Leonard es caca",
+    secret: "Rockets > Spurs",
     resave: false,
     saveUninitialized: false
 }));
